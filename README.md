@@ -8,7 +8,7 @@
 This example integrates AI into DevExpress VCL Controls using the official Embarcadero [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) pack available via the GetIt Package Manager.
 VCL developers can switch between different AI providers and execute commands that DevExpress AI Assistant adds to DevExpress Text Editors (such as [TcxMemo](https://docs.devexpress.com/VCL/cxMemo.TcxMemo) or [TdxRichEditControl](https://docs.devexpress.com/VCL/dxRichEdit.Control.TdxRichEditControl)).
 
-![DevExpress VCL AI Example](./Images/vcl-text-editor-ai-demo.gif)
+![DevExpress VCL AI Example](/CS/Images/vcl-text-editor-ai-demo.gif)
 
 > [!NOTE]
 > VCL developers can use either SmartCore AI Components, plug in third-party libraries, or leverage own implementation to support different AI providers. For example, the DevExpress VCL Rich Text Editor demo ("%Public%\DevExpress VCL Demos\MegaDemos\Product Demos\ExpressRichEditControl\dxAI.ChatClient.Azure.pas" uses our Azure OpenAI service deployment via a simple `TdxAIAzureChatClient` implementation (extends our base `TdxAIChatClient` API).
@@ -55,4 +55,5 @@ end;
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
 
