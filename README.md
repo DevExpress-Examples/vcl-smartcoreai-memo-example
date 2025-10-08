@@ -25,8 +25,8 @@ VCL developers can switch between different AI providers and execute commands th
 To connect to an AI provider within this sample project, do the following:
 
 1. Open the main form in **Designer** mode.
-2. Open a design time editor for a provider component (OpenAI or Google Gemini providers are available in this example).
-3. Paste a valid API key.
+2. Select the OpenAI or Google Gemini provider component.
+3. Expand the `Params` node in the **Object Inspector** and paste a valid API key into the `APIKey` input box.
 4. Uncomment the `TdxSmartCoreAIChatClient.Create` call for the target AI provider:
 
 ```
@@ -55,5 +55,6 @@ end;
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
 
 
