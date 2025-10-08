@@ -6,26 +6,29 @@
 <!-- default badges end -->
 # DevExpress VCL/Delphi - Integrate SmartCore AI component library 
 
-This simple example integrates AI into DevExpress VCL Controls using the official Embarcader SmartCore AI component library available via the GetIt Package Manager.
-VCL developers can switch between different AI providers and utilize commands that DevExpress AI Assistant adds to DevExpress Text Editors (such as `TcxMemo` or `TdxRichEditControl`).
+This example integrates AI into DevExpress VCL Controls using the official Embarcadero [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) pack available via the GetIt Package Manager.
+VCL developers can switch between different AI providers and execute commands that DevExpress AI Assistant adds to DevExpress Text Editors (such as [TcxMemo](https://docs.devexpress.com/VCL/cxMemo.TcxMemo) or [TdxRichEditControl](https://docs.devexpress.com/VCL/dxRichEdit.Control.TdxRichEditControl)).
 
 ![DevExpress VCL AI Example](./Images/vcl-text-editor-ai-demo.gif)
 
 > [!NOTE]
-> VCL developers can use either SmartCore AI library, plug in third-party libraries or leverage own implementation to support different AI providers. For example, the DevExpress VCL Rich Text Editor demo ("%Public%\DevExpress VCL Demos\MegaDemos\Product Demos\ExpressRichEditControl\dxAI.ChatClient.Azure.pas" uses our Azure OpenAI service deployment via a simple `TdxAIAzureChatClient` implementation (extends our base `TdxAIChatClient` API).
+> VCL developers can use either SmartCore AI Components, plug in third-party libraries, or leverage own implementation to support different AI providers. For example, the DevExpress VCL Rich Text Editor demo ("%Public%\DevExpress VCL Demos\MegaDemos\Product Demos\ExpressRichEditControl\dxAI.ChatClient.Azure.pas" uses our Azure OpenAI service deployment via a simple `TdxAIAzureChatClient` implementation (extends our base `TdxAIChatClient` API).
 
-<Screenshot or video goes here>
+## Prerequisites
 
- ## Prerequisites
-
- - Microsoft Windows 10 or newer
- - Embarcadero RAD Studio IDE 13.0 or newer (Community Edition is not supported)
- - The [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) package installed from GetIt
- - DevExpress VCL Components v25.1.3 or newer
+- Microsoft Windows 10 or newer
+- Embarcadero RAD Studio IDE 13.0 or newer (Community Edition is not supported)
+- The [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) package installed from GetIt
+- DevExpress VCL Components v25.1.3 or newer
 
 ## Running the example
 
-To connect to an AI provider open the main form in designer, open editor for your driver of choice (OpenAI or Google Gemini in this example) and fill in API key. Then uncomment the `TdxSmartCoreAIChatClient.Create` call for the required AI provider`:
+To connect to an AI provider within this sample project, do the following:
+
+1. Open the main form in **Designer** mode.
+2. Open a design time editor for a provider component (OpenAI or Google Gemini providers are available in this example).
+3. Paste a valid API key.
+4. Uncomment the `TdxSmartCoreAIChatClient.Create` call for the target AI provider:
 
 ```
 procedure TSmartCoreAIDemoMainForm.FormCreate(Sender: TObject);
@@ -53,3 +56,4 @@ end;
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
