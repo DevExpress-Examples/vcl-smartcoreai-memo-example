@@ -4,9 +4,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# DevExpress VCL/Delphi - Integrate SmartCore AI component library 
+# DevExpress VCL - Integrate SmartCore AI component library
 
-This example integrates AI into DevExpress VCL Controls using the official Embarcadero [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) pack available via the GetIt Package Manager.
+This example integrates an AI agent into DevExpress VCL Controls using the official Embarcadero [SmartCore AI Components pack](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) available via the GetIt Package Manager.
 VCL developers can switch between different AI providers and execute commands that DevExpress AI Assistant adds to DevExpress Text Editors (such as [TcxMemo](https://docs.devexpress.com/VCL/cxMemo.TcxMemo) or [TdxRichEditControl](https://docs.devexpress.com/VCL/dxRichEdit.Control.TdxRichEditControl)).
 
 ![DevExpress VCL AI Example](/CS/Images/vcl-text-editor-ai-demo.gif)
@@ -21,9 +21,9 @@ VCL developers can switch between different AI providers and execute commands th
 - The [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) package installed from GetIt
 - DevExpress VCL Components v25.1.3 or newer
 
-## Running the example
+## Run the Example
 
-To connect to an AI provider within this sample project, do the following:
+To connect to an AI provider within this sample project, you must:
 
 1. Open the main form in **Designer** mode.
 2. Select the OpenAI or Google Gemini provider component.
@@ -56,6 +56,3 @@ end;
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
-
-
-
