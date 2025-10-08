@@ -1,31 +1,33 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/1072096986/25.1.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1309851)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 # DevExpress VCL/Delphi - Integrate SmartCore AI component library 
 
-This simple example integrates AI into DevExpress VCL Controls using the official Embarcader SmartCore AI component library available via the GetIt Package Manager.
-VCL developers can switch between different AI providers and utilize commands that DevExpress AI Assistant adds to DevExpress Text Editors (such as `TcxMemo` or `TdxRichEditControl`).
+This example integrates AI into DevExpress VCL Controls using the official Embarcadero [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) pack available via the GetIt Package Manager.
+VCL developers can switch between different AI providers and execute commands that DevExpress AI Assistant adds to DevExpress Text Editors (such as [TcxMemo](https://docs.devexpress.com/VCL/cxMemo.TcxMemo) or [TdxRichEditControl](https://docs.devexpress.com/VCL/dxRichEdit.Control.TdxRichEditControl)).
 
-![DevExpress VCL AI Example](./Images/vcl-text-editor-ai-demo.gif)
+![DevExpress VCL AI Example](/CS/Images/vcl-text-editor-ai-demo.gif)
 
 > [!NOTE]
-> VCL developers can use either SmartCore AI library, plug in third-party libraries or leverage own implementation to support different AI providers. For example, the DevExpress VCL Rich Text Editor demo ("%Public%\DevExpress VCL Demos\MegaDemos\Product Demos\ExpressRichEditControl\dxAI.ChatClient.Azure.pas" uses our Azure OpenAI service deployment via a simple `TdxAIAzureChatClient` implementation (extends our base `TdxAIChatClient` API).
+> VCL developers can use either SmartCore AI Components, plug in third-party libraries, or leverage own implementation to support different AI providers. For example, the DevExpress VCL Rich Text Editor demo ("%Public%\DevExpress VCL Demos\MegaDemos\Product Demos\ExpressRichEditControl\dxAI.ChatClient.Azure.pas" uses our Azure OpenAI service deployment via a simple `TdxAIAzureChatClient` implementation (extends our base `TdxAIChatClient` API).
 
-<Screenshot or video goes here>
+## Prerequisites
 
- ## Prerequisites
-
- - Microsoft Windows 10 or newer
- - Embarcadero RAD Studio IDE 13.0 or newer (Community Edition is not supported)
- - The [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) package installed from GetIt
- - DevExpress VCL Components v25.1.3 or newer
+- Microsoft Windows 10 or newer
+- Embarcadero RAD Studio IDE 13.0 or newer (Community Edition is not supported)
+- The [SmartCore AI Components](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) package installed from GetIt
+- DevExpress VCL Components v25.1.3 or newer
 
 ## Running the example
 
-To connect to an AI provider open the main form in designer, open editor for your driver of choice (OpenAI or Google Gemini in this example) and fill in API key. Then uncomment the `TdxSmartCoreAIChatClient.Create` call for the required AI provider`:
+To connect to an AI provider within this sample project, do the following:
+
+1. Open the main form in **Designer** mode.
+2. Select the OpenAI or Google Gemini provider component.
+3. Expand the `Params` node in the **Object Inspector** and paste a valid API key into the `APIKey` input box.
+4. Uncomment the `TdxSmartCoreAIChatClient.Create` call for the target AI provider:
 
 ```
 procedure TSmartCoreAIDemoMainForm.FormCreate(Sender: TObject);
@@ -53,3 +55,6 @@ end;
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
+
+
