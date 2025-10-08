@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2025-10-06 16:05:01.000.702,=C:\Users\aleksandr.krivopalov\Documents\Embarcadero\Studio\Projects\vcl-ai-memo-example\CS\Unit1.pas</Transaction>
-    <Transaction>2025-10-06 16:05:16.000.188,C:\Users\aleksandr.krivopalov\Documents\Embarcadero\Studio\Projects\vcl-ai-memo-example\CS\Unit1.pas=C:\Users\aleksandr.krivopalov\Documents\Embarcadero\Studio\Projects\vcl-ai-memo-example\CS\dxSmartCoreAI.pas</Transaction>
-    <Transaction>2025-10-08 11:30:40.838,C:\Users\aleksandr.krivopalov\Documents\Embarcadero\Studio\Projects\vcl-smartcoreai-memo-example\CS\DevExpressSmartCoreAIDemo.dproj=C:\Users\aleksandr.krivopalov\Documents\Embarcadero\Studio\Projects\vcl-smartcoreai-memo-example\CS\DevExpressAIDemo.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
