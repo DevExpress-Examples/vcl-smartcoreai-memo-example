@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# DevExpress VCL - Integrate SmartCore AI component library
+# DevExpress VCL - Integrate SmartCore AI Component Library
 
 This example integrates an AI agent into DevExpress VCL Controls using the official Embarcadero [SmartCore AI Components pack](https://blogs.embarcadero.com/introducing-the-smartcore-ai-components-pack/) available via the GetIt Package Manager.
 VCL developers can switch between different AI providers and execute commands that DevExpress AI Assistant adds to DevExpress Text Editors (such as [TcxMemo](https://docs.devexpress.com/VCL/cxMemo.TcxMemo) or [TdxRichEditControl](https://docs.devexpress.com/VCL/dxRichEdit.Control.TdxRichEditControl)).
@@ -56,3 +56,4 @@ end;
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
